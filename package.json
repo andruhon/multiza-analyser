@@ -1,0 +1,22 @@
+{
+  "name": "multiza-analyser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "serve": "static ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.12.0",
+    "d3-dsv": "^1.1.1",
+    "d3-fetch": "^1.1.2",
+    "node-static": "^0.7.11",
+    "rollup": "^1.21.4",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
